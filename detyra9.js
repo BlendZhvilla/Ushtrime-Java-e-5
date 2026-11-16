@@ -1,0 +1,29 @@
+
+let cmimi1 = "19.90";
+let cmimi2 = "8.50";
+
+let sasia1 = 2;
+let sasia2 = 3;
+
+cmimi1 = Number(cmimi1);
+cmimi2 = Number(cmimi2);
+
+let totali1 = cmimi1 * sasia1;
+let totali2 = cmimi2 * sasia2;
+
+let shumaPorosise = totali1 + totali2;
+
+let tarifa = shumaPorosise * 10 / 100;
+
+
+let shumaFinale = shumaPorosise + tarifa;
+
+
+let shumaFormatizuar = shumaFinale.toFixed(2);
+
+console.log("Totali i artikullit të parë: " + totali1 + " €");
+console.log("Totali i artikullit të dytë: " + totali2 + " €");
+console.log("Shuma e porosisë: " + shumaPorosise + " €");
+console.log("Tarifa e shërbimit (10%): " + tarifa + " €");
+console.log("Shuma finale: " + shumaFormatizuar + " €");
+console.log("Tipi i vlerës së formatizuar: " + typeof shumaFormatizuar);
