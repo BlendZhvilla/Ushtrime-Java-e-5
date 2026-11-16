@@ -13,7 +13,7 @@ const numri3 = Number (vlera3);
 const shuma = numri + numri2 + numri3;
 
 const avg = shuma / 3;
-
+    
 console.log("Pas Konvertimit");
 console.log(shuma);
 console.log(avg);
